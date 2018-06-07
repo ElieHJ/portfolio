@@ -162,11 +162,21 @@ p {
 	justify-content: center;
 }
 
+.aide {
+	padding-top: 10px;
+    height: 40px;
+    margin-top: 14px;
+}
+
 @media (max-width: 991px) {
 	.row.vertical-align {
     	display: block; /* Turn off the flexible box layout */
 	}
 	.nav-title-position-eh {
-    margin-top: 50px;
-}
+    	margin-top: 50px;
+	} 
+	.aide {
+/*    	display : none;*/
+    	margin-top: 70px;
+    }
 }
